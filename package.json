@@ -5,7 +5,7 @@
   "type": "module",
   "engines": { "node": ">=20" },
   "scripts": {
-    "start": "node server.mjs",
+    "start": "node seed.mjs && node server.mjs",
     "seed": "node seed.mjs",
     "test": "node --test"
   },
