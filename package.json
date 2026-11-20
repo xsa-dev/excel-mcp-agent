@@ -1,0 +1,19 @@
+{
+  "name": "excel-mcp-service-agent",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "start": "node server.mjs",
+    "seed": "node seed.mjs",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@google/genai": "^1.30.0",
+    "@knorq/xlsx-mcp-server": "^2.0.0",
+    "@modelcontextprotocol/sdk": "^1.25.2",
+    "dotenv": "^16.6.1",
+    "express": "^5.1.0"
+  }
+}
